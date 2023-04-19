@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("imgs/Img.preta.JPEG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: screen;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 150px;
+    padding: 18px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    width: 480px;
+
+
+}
+
+h1 {
+
+
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+
+}
+
+
+h4 {
+
+    position: relative;
+    top: -0px;
+    margin-left: 10px;
+
+}
+
+
+form {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+label {
+
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+
+input[type="password"]{
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    padding: 7px;
+    width: 200px;
+}
+
+input[type="email"]{
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 8px;
+    padding: 7px;
+    width: 200px;
+}
+
+
+.erros {
+    color: red;
+    margin-bottom: 15px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    width: 40%;
+    justify-content: center;
+    border: none;
+    margin-left: 150px;
+    border-radius: 5px;
+    background-color: #31a0e5;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: flex;
+}
+.button:hover {
+
+    background-color: #3291cc;
+}

@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("imgs/Img.preta.JPEG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: screen;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 13px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    margin-top: 90px;
+
+    background-size: cover;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    border-width: 2px;
+    border-color: #000000;
+    padding: 5px;
+    border-radius: 7px;
+    
+}
+
+input[type="password"] {
+    border-width: 2px;
+    border-color: #000000;
+    padding: 5px;
+    border-radius: 7px;
+    
+}
+
+input[type="text"] {
+    border-width: 2px;
+    border-color: #000000;
+    padding: 5px;
+    border-radius: 7px;
+    
+}
+
+input[type="email"] {
+    border-width: 2px;
+    border-color: #000000;
+    padding: 5px;
+    border-radius: 7px;
+   
+
+}
+
+
+input[type="date"] {
+    font-size: 18px;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: #000000;
+    height: 10px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+
+input[type="date"]:focus {
+    border-color: #333;
+}
+
+.erros {
+    color: red;
+    margin-bottom: 15px;
+}
+
+button {
+    font-size: 20px;
+    padding: 11px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4d8dbe;
+    color: #f6efef;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: -10px;
+    width: 555px;
+    margin-left: 24px;
+    
+}
+
+button:hover {
+    background-color: #3291cc;
+}
